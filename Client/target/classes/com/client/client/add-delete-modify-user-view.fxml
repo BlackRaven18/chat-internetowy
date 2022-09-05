@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.client.client.AddDeleteUserController">
+   <center>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER_RIGHT" prefHeight="442.0" prefWidth="315.0" spacing="20.0">
+               <children>
+                  <Label text="name:">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label text="surname:">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label prefWidth="58.0" text="login:">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label text="password:">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label text="Id:">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="442.0" prefWidth="334.0" spacing="20.0">
+               <children>
+                  <TextField fx:id="nameField" />
+                  <TextField fx:id="surnameField" />
+                  <TextField fx:id="loginField" />
+                  <TextField fx:id="passwordField" />
+                  <TextField fx:id="idField" />
+               </children>
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding>
+            </VBox>
+         </children>
+      </HBox>
+   </center>
+   <top>
+      <HBox alignment="CENTER" prefHeight="106.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="106.0" prefWidth="636.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#exit" prefHeight="26.0" prefWidth="62.0" text="Exit">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Label prefHeight="70.0" prefWidth="783.0" text="Add/delete user">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </top>
+   <bottom>
+      <VBox BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" prefHeight="84.0" prefWidth="800.0" spacing="50.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#addUser" text="Add user" textFill="#39dc07" />
+                  <Button mnemonicParsing="false" onAction="#changeUser" text="Change user" textFill="#ff6c04" />
+                  <Button mnemonicParsing="false" onAction="#deleteUser" text="Delete user" textFill="#ff2525" />
+               </children>
+            </HBox>
+            <HBox alignment="TOP_CENTER" prefHeight="42.0" prefWidth="800.0">
+               <children>
+                  <Label fx:id="warningLabel" text="warning label" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </bottom>
+</BorderPane>

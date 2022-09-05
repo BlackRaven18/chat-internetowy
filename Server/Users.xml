@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="18" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="chatserver.User" id="User0">
+    <void property="conversationList">
+     <void method="put">
+      <int>2</int>
+      <object class="chatserver.MessagesManager" id="MessagesManager0">
+       <void property="messageList">
+        <void method="add">
+         <string>Jan Kowalski[ 04-06-2022 15:06]: cześć</string>
+        </void>
+        <void method="add">
+         <string>Arek Wolski[ 04-06-2022 15:06]: cześć
+</string>
+        </void>
+       </void>
+      </object>
+     </void>
+     <void method="put">
+      <int>3</int>
+      <object class="chatserver.MessagesManager" id="MessagesManager1">
+       <void property="messageList">
+        <void method="add">
+         <string>Jan Kowalski[ 04-06-2022 15:06]: hej</string>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void property="id">
+     <int>1</int>
+    </void>
+    <void property="login">
+     <string>1</string>
+    </void>
+    <void property="name">
+     <string>Jan</string>
+    </void>
+    <void property="password">
+     <string>1</string>
+    </void>
+    <void property="surname">
+     <string>Kowalski</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="chatserver.User" id="User1">
+    <void property="conversationList">
+     <void method="put">
+      <int>1</int>
+      <object class="chatserver.MessagesManager" id="MessagesManager2">
+       <void property="messageList">
+        <void method="add">
+         <string>Jan Kowalski[ 04-06-2022 15:06]: cześć</string>
+        </void>
+        <void method="add">
+         <string>Arek Wolski[ 04-06-2022 15:06]: cześć
+</string>
+        </void>
+       </void>
+      </object>
+     </void>
+     <void method="put">
+      <int>3</int>
+      <object class="chatserver.MessagesManager" id="MessagesManager3">
+       <void property="messageList">
+        <void method="add">
+         <string>Arek Wolski[ 04-06-2022 15:06]: cześć</string>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void property="id">
+     <int>2</int>
+    </void>
+    <void property="login">
+     <string>2</string>
+    </void>
+    <void property="name">
+     <string>Arek</string>
+    </void>
+    <void property="password">
+     <string>2</string>
+    </void>
+    <void property="surname">
+     <string>Wolski</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="chatserver.User" id="User2">
+    <void property="conversationList">
+     <void method="put">
+      <int>1</int>
+      <object class="chatserver.MessagesManager" id="MessagesManager4">
+       <void property="messageList">
+        <void method="add">
+         <string>Jan Kowalski[ 04-06-2022 15:06]: hej</string>
+        </void>
+       </void>
+      </object>
+     </void>
+     <void method="put">
+      <int>2</int>
+      <object class="chatserver.MessagesManager" id="MessagesManager5">
+       <void property="messageList">
+        <void method="add">
+         <string>Arek Wolski[ 04-06-2022 15:06]: cześć</string>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void property="id">
+     <int>3</int>
+    </void>
+    <void property="login">
+     <string>3</string>
+    </void>
+    <void property="name">
+     <string>Marek</string>
+    </void>
+    <void property="password">
+     <string>3</string>
+    </void>
+    <void property="surname">
+     <string>Nowak</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
